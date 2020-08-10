@@ -43,7 +43,8 @@ body {
   position: relative;
   font-family: 'TT Lakes Bold', 'Arial', sans-serif;
   font-size: 28px;
-  margin-top: 30px; }
+  margin-top: 30px;
+  display: inline-block; }
 
 .title:before {
   content: "";
