@@ -3,8 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="fbbfe1de-ba6c-4ab8-8ef0-416373469558" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/content_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/callback_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/expand_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/menu_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/message_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/phone_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/profile_icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/service_status_icon.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596890000539</updated>
       <workItem from="1596890002920" duration="11452000" />
-      <workItem from="1597058924477" duration="8954000" />
+      <workItem from="1597058924477" duration="9225000" />
     </task>
     <servers />
   </component>
