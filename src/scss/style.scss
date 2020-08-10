@@ -42,6 +42,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border:none;
 }
 
 .button--circle{
@@ -59,8 +60,9 @@ body {
 .title{
   padding-left:16px;
   position: relative;
-  font-size: 14px;
   font-family: 'TT Lakes Bold', 'Arial', sans-serif;
+  font-size: 28px;
+  margin-top: 30px;
 }
 
 .title:before{
@@ -90,6 +92,7 @@ body {
     background-color: transparent;
     right:0;
     top:0;
+    border:none;
   }
 }
 
@@ -111,6 +114,8 @@ body {
 
 .header__contact-buttons{
   display: none;
+  list-style: none;
+  padding:0;
 }
 
 @media(min-width: 768px){
@@ -129,6 +134,8 @@ body {
 .header__service-buttons{
   display:flex;
   position:relative;
+  list-style: none;
+  padding: 0;
 }
 
 .header__service-buttons:before{
@@ -237,17 +244,14 @@ body {
   }
 }
 
-.expand-block{
-  font-size: 14pt;
-  margin-top: 16px;
-}
-
-.expand-block__expand-link{
+a.expand-block{
   display:flex;
   align-items: center;
   color:#000;
   text-decoration: none;
   font-family: 'TT Lakes Medium', sans-serif;
+  font-size: 14pt;
+  margin-top: 16px;
 }
 
 .expand-block__expand-icon{
