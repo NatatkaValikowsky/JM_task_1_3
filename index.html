@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Верстка блока 1.3</title>
 <link href="style.css" rel="stylesheet"></head>
@@ -10,71 +10,63 @@
 <body>
 
   <header class="header">
-    <div class="header__menu-button button button--circle">
-      <a class="button__link" href="#">
-        <img class="button__icon" src="./img/menu_icon.svg" alt="Кнопка для открытия меню">
-      </a>
-    </div>
+
+    <button type="button" class="header__menu-button button button--circle">
+      <img class="button__icon" src="./img/menu_icon.svg" alt="Кнопка для открытия меню">
+    </button>
 
     <div class="header__logo logo">
-      <a class="logo__link" href="#">
+      <a class="logo__link" href="/">
         <img class="logo__img" src="./img/logo.svg" alt="Логотип компании">
       </a>
     </div>
 
-    <div class="header__contact-buttons">
-
-      <div class="header-service-button button button--circle">
-        <a class="button__link" href="#">
-          <img class="button__icon" src="./img/phone_icon.svg" alt="Кнопка для открытия меню">
+    <ul class="header__contact-buttons">
+      <li class="header-service-button button button--circle">
+        <a href="" class="button__link">
+          <img class="button__icon" src="./img/phone_icon.svg" alt="Позвонить">
         </a>
-      </div>
+      </li>
 
-      <div class="header-service-button button button--circle">
-        <a class="button__link" href="#">
-          <img class="button__icon" src="./img/message_icon.svg" alt="Кнопка для открытия меню">
+      <li class="header-service-button button button--circle">
+        <a href="" class="button__link">
+          <img class="button__icon" src="./img/message_icon.svg" alt="Отправить сообщение">
         </a>
-      </div>
+      </li>
 
-      <div class="header-service-button button button--circle">
-        <a class="button__link" href="#">
-          <img class="button__icon" src="./img/profile_icon.svg" alt="Кнопка для открытия меню">
+      <li class="header-service-button button button--circle">
+        <a href="" class="button__link">
+          <img class="button__icon" src="./img/profile_icon.svg" alt="Открыть профиль">
         </a>
-      </div>
+      </li>
+    </ul>
 
-    </div>
+    <ul class="header__service-buttons">
 
-    <div class="header__service-buttons">
+      <li class="header-service-button">
+        <span class="header-service-button__text">Оставить заявку</span>
+        <button type="button" class="button button--circle">
+          <img class="button__icon" src="./img/callback_icon.svg" alt="Оставить заявку">
+        </button>
+      </li>
 
-      <div class="header-service-button">
-        <div class="header-service-button__text">Оставить заявку</div>
-        <div class="button button--circle">
-          <a class="button__link" href="#">
-            <img class="button__icon" src="./img/callback_icon.svg" alt="Кнопка для открытия меню">
-          </a>
-        </div>
-      </div>
+      <li class="header-service-button">
+        <span class="header-service-button__text">Статус ремонта</span>
+        <button type="button" class="button button--circle">
+          <img class="button__icon" src="./img/service_status_icon.svg" alt="Статус ремонта">
+        </button>
+      </li>
+    </ul>
 
-      <div class="header-service-button">
-        <div class="header-service-button__text">Статус ремонта</div>
-        <div class="button button--circle">
-          <a class="button__link" href="#">
-            <img class="button__icon" src="./img/service_status_icon.svg" alt="Кнопка для открытия меню">
-          </a>
-        </div>
-      </div>
-
-    </div>
   </header>
 
   <main class="main">
-    <div class="main__title title">
-      <h1 class="title__text">
-        Услуги и сервисы
-      </h1>
-    </div>
 
-    <div class="main__nav-tags nav-tags">
+    <h1 class="main__title title">
+      Услуги и сервисы
+    </h1>
+
+    <nav class="main__nav-tags nav-tags">
       <ul class="nav-tags__list">
         <li class="nav-tags__item nav-tags__item--active">Ремонтируемые бренды</li>
         <li class="nav-tags__item">Ремонтируемые устройства</li>
@@ -83,7 +75,7 @@
         <li class="nav-tags__item">Специальные цены</li>
         <li class="nav-tags__item">Отзывы</li>
       </ul>
-    </div>
+    </nav>
 
     <div class="main__content">
       <div class="main__text">
@@ -95,17 +87,15 @@
           Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. <span class="main__text-full">Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span>
         </p>
 
-        <div class="main__expand expand-block">
-          <a href="#" class="expand-block__expand-link">
-            
-            <img src="./img/expand_icon.svg" alt="" class="expand-block__expand-icon">
-            Читать далее
-          </a>
-        </div>
+        <a href="#" class="expand-block">
+          <img src="./img/expand_icon.svg" alt="" class="expand-block__expand-icon">
+          Читать далее
+        </a>
+
       </div>
 
       <div class="main__img-block img-block">
-        <img class="img-block-img" src="./files/content_img.jpg" width="100%" height="auto" alt="">
+        <img class="img-block-img" src="./files/content_img.jpg" width="100%" height="auto" alt="Наши услуги">
       </div>
     </div>
   </main>
