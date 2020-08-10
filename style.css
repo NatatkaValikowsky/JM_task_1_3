@@ -199,5 +199,9 @@ a.expand-block {
 .main__img-block {
   margin-top: 16px; }
 
+.img-block-img {
+  width: 100%;
+  height: auto; }
+
 
 /*# sourceMappingURL=style.css.map*/
