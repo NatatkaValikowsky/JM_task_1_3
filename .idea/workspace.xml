@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fbbfe1de-ba6c-4ab8-8ef0-416373469558" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../os/OSPanel/domains/chakra/wp-content/plugins/delivery-plugin" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
@@ -44,7 +45,9 @@
       <option name="presentableId" value="Default" />
       <updated>1596890000539</updated>
       <workItem from="1596890002920" duration="11452000" />
-      <workItem from="1597058924477" duration="11128000" />
+      <workItem from="1597058924477" duration="11327000" />
+      <workItem from="1597317473911" duration="47000" />
+      <workItem from="1597320507184" duration="4692000" />
     </task>
     <servers />
   </component>
@@ -60,10 +63,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="434" y="208" key="EditFileWatcherDialog/0.0.1600.860@0.0.1600.860" timestamp="1596890119198" />
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1596975613225">
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1597321941968">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1596975613225" />
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1597321941968" />
     <state x="598" y="141" key="RollbackChangesDialog" timestamp="1597063082435">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -72,6 +75,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1597059917948" />
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1597317488320">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1597317488320" />
     <state x="466" y="162" width="667" height="536" key="find.popup" timestamp="1597062684523">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
