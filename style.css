@@ -172,7 +172,7 @@ body {
   white-space: nowrap;
   margin-left: 16px; }
 
-.nav__item--active {
+.nav__link--active {
   background-color: #fff;
   border: 2px solid #B8FFEC;
   border-radius: 6px; }
