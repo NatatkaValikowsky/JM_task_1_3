@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbbfe1de-ba6c-4ab8-8ef0-416373469558" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,7 @@
       <workItem from="1597317473911" duration="47000" />
       <workItem from="1597320507184" duration="6722000" />
       <workItem from="1597414006815" duration="9320000" />
-      <workItem from="1597469030799" duration="9939000" />
+      <workItem from="1597469030799" duration="17514000" />
     </task>
     <servers />
   </component>
@@ -55,10 +57,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1597073975425">
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1597674246728">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1597073975425" />
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1597674246728" />
     <state x="434" y="208" key="EditFileWatcherDialog" timestamp="1596890119198">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -67,14 +69,18 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1597321941968" />
-    <state x="598" y="141" key="RollbackChangesDialog" timestamp="1597063082435">
+    <state x="598" y="141" key="RollbackChangesDialog" timestamp="1597673306060">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="598" y="141" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1597063082435" />
+    <state x="598" y="141" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1597673306060" />
     <state x="301" y="72" key="SettingsEditor" timestamp="1597059917948">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1597059917948" />
+    <state x="647" y="346" key="VCS.ChangelistChooser" timestamp="1597673302123">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="647" y="346" key="VCS.ChangelistChooser/0.0.1600.860@0.0.1600.860" timestamp="1597673302123" />
     <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1597469037050">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
