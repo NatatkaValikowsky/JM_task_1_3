@@ -100,10 +100,6 @@ body {
   .buttons-list--contacts {
     display: none; } }
 
-@media (min-width: 1120px) {
-  .buttons-list--service {
-    display: flex; } }
-
 .buttons-list--service:before {
   content: "";
   display: block;
@@ -128,12 +124,6 @@ body {
 .button--profile {
   background-image: url(./static/profile_icon.svg); }
 
-.button--callback {
-  background-image: url(./static/callback_icon.svg); }
-
-.button--status {
-  background-image: url(./static/service_status_icon.svg); }
-
 .buttons-list__button {
   margin-left: 16px;
   display: flex;
@@ -144,7 +134,24 @@ body {
   display: flex;
   align-items: center;
   color: #000;
-  text-decoration: none; }
+  text-decoration: none;
+  position: relative; }
+
+.buttons-list__link:after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #FF3E79;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.buttons-list__link--callback:after {
+  background-image: url(./static/callback_icon.svg); }
+
+.buttons-list__link--status:after {
+  background-image: url(./static/service_status_icon.svg); }
 
 .buttons-list__button-text {
   display: none;
