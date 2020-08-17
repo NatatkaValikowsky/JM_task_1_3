@@ -12,7 +12,7 @@
   <div class="container">
     <header class="header">
 
-      <button type="button" class="header__menu-button button button--circle button--menu" aria-label="Menu button"></button>
+      <button type="button" class="header__menu-button button button--circle button--menu" aria-label="Открыть меню"></button>
 
       <div class="header__logo logo">
         <a class="logo__link" href="/">
@@ -23,15 +23,15 @@
       <ul class="header__buttons-list buttons-list buttons-list--contacts">
 
         <li class="buttons-list__button">
-          <button class="button button--circle button--phone" aria-label="Phone button"></button>
+          <button class="button button--circle button--phone" aria-label="Позвонить"></button>
         </li>
 
         <li class="buttons-list__button">
-          <button class="button button--circle button--message" aria-label="Message button"></button>
+          <button class="button button--circle button--message" aria-label="Отправить сообщение"></button>
         </li>
 
         <li class="buttons-list__button">
-          <button class="button button--circle button--profile" aria-label="Profile button"></button>
+          <button class="button button--circle button--profile" aria-label="Перейти в профиль"></button>
         </li>
 
       </ul>
@@ -41,14 +41,14 @@
         <li class="buttons-list__button">
           <a class="buttons-list__link" href="#">
             <span class="buttons-list__button-text">Оставить заявку</span>
-            <button type="button" title="Оставить заявку" class="button button--circle button--callback" aria-label="Callback button"></button>
+            <span title="Оставить заявку" class="button button--circle button--callback" aria-label="Оставить заявку"></span>
           </a>
         </li>
 
         <li class="buttons-list__button">
           <a class="buttons-list__link" href="#">
             <span class="buttons-list__button-text">Статус ремонта</span>
-            <button type="button" class="button button--circle button--status" aria-label="Service status button"></button>
+            <span class="button button--circle button--status" aria-label="Узнать статус ремонта"></span>
           </a>
         </li>
 
@@ -65,8 +65,8 @@
       <nav class="main__nav nav">
         <ul class="nav__list">
 
-          <li class="nav__item nav__item--active">
-            <a class="nav__link" href="#">Ремонтируемые бренды</a>
+          <li class="nav__item">
+            <a class="nav__link nav__link--active" href="#">Ремонтируемые бренды</a>
           </li>
 
           <li class="nav__item">
@@ -93,16 +93,16 @@
 
       <section class="main__content content">
         <div class="content__text">
-          <span class="content__expand-block expand-block">
+          <div class="content__expand-block expand-block">
             <p>
               Мы являемся авторизованным сервисным центрм по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
             </p>
             <p>
               Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
             </p>
-          </span>
+          </div>
 
-          <button type="button" class="content__expand-button expand-button" aria-label="Expand button">
+          <button type="button" class="content__expand-button expand-button" aria-label="Развернуть текст">
             Читать далее
           </button>
 
