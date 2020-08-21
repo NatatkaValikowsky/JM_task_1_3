@@ -1,12 +1,117 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Меню сайта</title>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Верстка блока 1.3</title>
+<link href="style.css" rel="stylesheet"></head>
+
 <body>
-  Меню сайта
-</body>
+  <div class="container">
+    <header class="header">
+
+      <button type="button" class="header__menu-button button button--circle button--menu" aria-label="Открыть меню"></button>
+
+      <div class="header__logo logo">
+        <a class="logo__link" href="/">
+          <img class="logo__img" src="./img/logo.svg" alt="Логотип компании">
+        </a>
+      </div>
+
+      <ul class="header__buttons-list buttons-list buttons-list--contacts">
+
+        <li class="buttons-list__button">
+          <button class="button button--circle button--phone" aria-label="Позвонить"></button>
+        </li>
+
+        <li class="buttons-list__button">
+          <button class="button button--circle button--message" aria-label="Отправить сообщение"></button>
+        </li>
+
+        <li class="buttons-list__button">
+          <button class="button button--circle button--profile" aria-label="Перейти в профиль"></button>
+        </li>
+
+      </ul>
+
+      <ul class="header__buttons-list buttons-list buttons-list--service">
+
+        <li class="buttons-list__button">
+          <a class="buttons-list__link buttons-list__link--callback" href="#" aria-label="Оставить заявку">
+            <span class="buttons-list__button-text">Оставить заявку</span>
+          </a>
+        </li>
+
+        <li class="buttons-list__button">
+          <a class="buttons-list__link buttons-list__link--status" href="#" aria-label="Узнать статус ремонта">
+            <span class="buttons-list__button-text">Статус ремонта</span>
+          </a>
+        </li>
+
+      </ul>
+
+    </header>
+
+    <main class="main">
+
+      <h1 class="main__title title">
+        Услуги и сервисы
+      </h1>
+
+      <nav class="main__nav nav">
+        <ul class="nav__list">
+
+          <li class="nav__item">
+            <a class="nav__link nav__link--active" href="#">Ремонтируемые бренды</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link" href="#">Ремонтируемые устройства</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link" href="#">Цены на услуги</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link" href="#">Адреса сервисных центров</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link" href="#">Специальные цены</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link" href="#">Отзывы</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="main__content content">
+        <div class="content__text">
+          <div class="content__expand-block expand-block">
+            <p>
+              Мы являемся авторизованным сервисным центрм по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+            </p>
+            <p>
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+            </p>
+          </div>
+
+          <button type="button" class="content__expand-button expand-button" aria-label="Развернуть текст">
+            Читать далее
+          </button>
+
+        </div>
+
+        <div class="content__img-block img-block">
+          <img class="img-block__img" src="./img/files/content_img.jpg" alt="Наши услуги">
+        </div>
+
+      </section>
+
+  </main>
+  </div>
+<script type="text/javascript" src="./js/bundle.js"></script></body>
 </html>
