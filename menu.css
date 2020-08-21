@@ -132,14 +132,19 @@
 
 .lang-list {
   list-style: none;
-  display: flex;
-  text-transform: uppercase;
-  font-family: 'TT Lakes Medium', sans-serif; }
+  display: flex; }
 
 .lang-list__item {
   margin: 0 4px; }
 
-.lang-list__item--current {
+.item__button {
+  text-transform: uppercase;
+  font-family: 'TT Lakes Medium', sans-serif;
+  border: none;
+  background-color: transparent;
+  cursor: pointer; }
+
+.item__button--current {
   color: #7E7E82; }
 
 
