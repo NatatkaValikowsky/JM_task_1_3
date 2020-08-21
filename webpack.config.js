@@ -5,13 +5,14 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   // Входной файл
-  entry: [
-    './src/js/index.js'
-  ],
+  entry: {
+    'main' : './src/js/index.js',
+    'menu': './src/js/menu.js'
+  },
 
   // Выходной файл
   output: {
-    filename: './js/bundle.js'
+    filename: './js/[name].js'
   },
 
   // Source maps для удобства отладки
@@ -67,18 +68,25 @@ module.exports = {
   plugins: [
     // Подключаем файл html, стили и скрипты встроятся автоматически
     new HtmlWebpackPlugin({
-      title: 'Webpack 4 Starter',
       template: './src/index.html',
       inject: true,
       minify: {
         removeComments: true,
         collapseWhitespace: false,
-      }
+      },
+      chunks: ['main'],
+    }),
+
+    // Подключаем файл с меню
+    new HtmlWebpackPlugin({
+      filename: 'menu.html',
+      template: './src/menu.html',
+      chunks: ['menu'],
     }),
 
     // Кладем стили в отдельный файлик
     new MiniCssExtractPlugin({
-      filename: 'style.css',
+      filename: '[name].css'
     }),
 
     // Копируем картинки
