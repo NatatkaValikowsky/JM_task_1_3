@@ -15,7 +15,9 @@
 
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: 'TT Lakes', sans-serif;
+  font-size: 16px; }
 
 .button {
   cursor: pointer;
@@ -26,7 +28,12 @@
   align-items: center;
   border: none;
   background-position: center center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  transition-duration: .5s; }
+
+.button:hover {
+  transform: scale(1.1);
+  background-color: #41F6D7; }
 
 .button--circle {
   width: 40px;
@@ -34,7 +41,7 @@
 
 .menu {
   width: 320px;
-  height: 100vh;
+  min-height: 100%;
   background-color: #ffffff;
   box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
   position: fixed;
@@ -56,6 +63,84 @@
 
 .button--search {
   background-image: url(./static/search_icon.svg); }
+
+.nav__list {
+  list-style: none; }
+
+.nav__item {
+  margin: 32px 0; }
+
+.nav__link {
+  text-decoration: none;
+  color: #000000;
+  padding-left: 24px;
+  position: relative; }
+
+.nav__link--active {
+  color: #7E7E82; }
+
+.nav__link--active:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: calc(100% + 10px);
+  width: 8px;
+  border-radius: 10px;
+  background-color: #41F6D7;
+  left: -4px;
+  top: -5px; }
+
+.buttons-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  position: relative;
+  justify-content: flex-start; }
+
+.footer__buttons-list {
+  margin-left: 24px; }
+
+.buttons-list__button {
+  margin: 0 8px; }
+
+.buttons-list__button:nth-child(1) {
+  margin-left: 0; }
+
+.button--phone {
+  background-image: url(./static/phone_icon.svg); }
+
+.button--message {
+  background-image: url(./static/message_icon.svg); }
+
+.button--profile {
+  background-image: url(./static/profile_icon.svg); }
+
+.footer__contact-list {
+  margin-left: 24px;
+  list-style: none;
+  margin-top: 16px;
+  font-family: 'TT Lakes Medium', sans-serif; }
+
+.contact-list__item--phone {
+  margin-top: 12px;
+  font-size: 24px;
+  font-family: 'TT Lakes Bold', sans-serif; }
+
+.footer__lang-list {
+  margin-top: 40px;
+  margin-left: 24px; }
+
+.lang-list {
+  list-style: none;
+  display: flex;
+  text-transform: uppercase;
+  font-family: 'TT Lakes Medium', sans-serif; }
+
+.lang-list__item {
+  margin: 0 4px; }
+
+.lang-list__item--current {
+  color: #7E7E82; }
 
 
 /*# sourceMappingURL=menu.css.map*/
