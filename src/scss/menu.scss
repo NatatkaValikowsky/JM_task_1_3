@@ -64,16 +64,17 @@ $pinkColor: #FF3E79;
   position: fixed;
   left:0;
   top:0;
+  padding-left:24px;
 }
 
-.menu-header{
+.menu__header{
   display: flex;
-  padding: 24px;
+  padding: 24px 24px 24px 0;
   justify-content: space-between;
   align-items: center;
 }
 
-.menu-header__logo{
+.menu__logo{
   margin-left:17px;
   margin-right:auto;
 }
@@ -86,26 +87,23 @@ $pinkColor: #FF3E79;
   background-image: url(../img/icons/search_icon.svg);
 }
 
-.nav__list{
+.menu__nav-list{
   list-style: none;
 }
 
-.nav__item{
-  margin: 32px 0;
-}
-
-.nav__link{
+.menu__nav-link{
   text-decoration: none;
   color: #000000;
-  padding-left: 24px;
+  padding: 16px 0;
   position: relative;
+  display: block;
 }
 
-.nav__link--active{
+.menu__nav-link--active{
   color:$grey;
 }
 
-.nav__link--active:before{
+.menu__nav-link--active:before{
   content:"";
   display: block;
   position:absolute;
@@ -113,8 +111,12 @@ $pinkColor: #FF3E79;
   width:8px;
   border-radius: 10px;
   background-color: $titleDecoration;
-  left:-4px;
+  left:-28px;
   top:-5px;
+}
+
+.menu__footer{
+  margin-top: 16px;
 }
 
 .buttons-list{
@@ -123,10 +125,6 @@ $pinkColor: #FF3E79;
   padding:0;
   position:relative;
   justify-content: flex-start;
-}
-
-.footer__buttons-list{
-  margin-left:24px;
 }
 
 .buttons-list__button{
@@ -149,8 +147,7 @@ $pinkColor: #FF3E79;
   background-image: url(../img/icons/profile_icon.svg);
 }
 
-.footer__contact-list{
-  margin-left:24px;
+.menu__contact-list{
   list-style: none;
   margin-top: 16px;
   font-family: 'TT Lakes Medium', sans-serif;
@@ -162,9 +159,8 @@ $pinkColor: #FF3E79;
   font-family: 'TT Lakes Bold', sans-serif;
 }
 
-.footer__lang-list{
+.menu__lang-list{
   margin-top: 40px;
-  margin-left:24px;
 }
 
 .lang-list{
