@@ -17,7 +17,8 @@
   padding: 0;
   margin: 0;
   font-family: 'TT Lakes', sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  box-sizing: border-box; }
 
 .button {
   cursor: pointer;
@@ -41,20 +42,15 @@
 
 .menu {
   width: 320px;
-  height: 100%;
   background-color: #ffffff;
   box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
-  position: fixed;
   left: 0;
   top: 0;
-  padding-left: 24px;
-  overflow-y: scroll;
-  box-sizing: border-box;
-  scrollbar-width: none; }
+  padding: 24px 0 24px 24px; }
 
 .menu__header {
   display: flex;
-  padding: 24px 24px 24px 0;
+  padding: 0 24px 24px 0;
   justify-content: space-between;
   align-items: center; }
 
@@ -97,7 +93,7 @@
   top: -5px; }
 
 .menu__footer {
-  margin: 16px 0; }
+  margin-top: 268px; }
 
 .buttons-list {
   display: flex;
