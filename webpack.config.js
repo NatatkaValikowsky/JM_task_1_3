@@ -7,7 +7,8 @@ module.exports = {
   // Входной файл
   entry: {
     'main' : './src/js/index.js',
-    'menu': './src/js/menu.js'
+    'menu': './src/js/menu.js',
+    'slider' : './src/js/slider.js'
   },
 
   // Выходной файл
@@ -35,7 +36,12 @@ module.exports = {
 
       // Компилируем SCSS в CSS
       {
-        test: /\.scss$/,
+        test: /\.css$/,
+        use: [ 'style-loader', 'css-loader' ]
+      },
+
+      {
+        test: /\.(scss)$/,
         use: [
           MiniCssExtractPlugin.loader, // Extract css to separate file
           'css-loader', // translates CSS into CommonJS
@@ -82,6 +88,13 @@ module.exports = {
       filename: 'menu.html',
       template: './src/menu.html',
       chunks: ['menu'],
+    }),
+
+    // Подключаем файл со слайдером
+    new HtmlWebpackPlugin({
+      filename: 'slider.html',
+      template: './src/slider.html',
+      chunks: ['slider'],
     }),
 
     // Кладем стили в отдельный файлик
