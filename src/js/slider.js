@@ -4,16 +4,29 @@ import '../scss/slider.scss';
 
 function getSlider(obj){
   this.init(obj);
+  this.addListeners(obj);
 }
 
 getSlider.prototype = {
   swiper: undefined,
+  documentElement: document.documentElement,
 
   init: function(obj){
-    let documentElement = document.documentElement;
-    if(documentElement.clientWidth < 768){
+    if(this.documentElement.clientWidth < 768){
       this.swiper = new Swiper(obj.container, obj.options);
     }
+  },
+
+  addListeners: function (obj) {
+    window.addEventListener('resize', function () {
+      if(this.documentElement.clientWidth < 768 && this.swiper === undefined){
+        this.swiper = new Swiper(obj.container, obj.options)
+      }else if(this.documentElement.clientWidth > 768 && this.swiper !== undefined){
+        this.swiper.destroy(true, true);
+        this.swiper = undefined;
+        document.querySelector('.slider-pagination').textContent = '';
+      }
+    }.bind(this));
   }
 };
 
