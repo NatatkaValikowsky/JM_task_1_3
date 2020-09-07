@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', function () {
       slidesPerView: 'auto',
       spaceBetween: 16,
       pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
+        el: '.slider-pagination',
+        clickable: true
       },
       slideClass: 'slider-item',
     }
