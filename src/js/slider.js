@@ -19,7 +19,7 @@ getSlider.prototype = {
 
 document.addEventListener('DOMContentLoaded', function () {
   const mySlider = new getSlider({
-    container: '.swiper-container',
+    container: '.slider',
     options: {
       slidesPerView: 'auto',
       spaceBetween: 16,
