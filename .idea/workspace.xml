@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fbbfe1de-ba6c-4ab8-8ef0-416373469558" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/slider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/slider.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
       <workItem from="1599324669611" duration="378000" />
       <workItem from="1599396010903" duration="20463000" />
       <workItem from="1599489959429" duration="6970000" />
-      <workItem from="1599559741220" duration="1291000" />
+      <workItem from="1599559741220" duration="5689000" />
     </task>
     <servers />
   </component>
@@ -84,10 +82,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="9" y="82" width="1416" height="676" key="DiffContextDialog" timestamp="1599490032732">
+    <state x="9" y="82" width="1416" height="676" key="DiffContextDialog" timestamp="1599562128993">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="9" y="82" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1599490032732" />
+    <state x="9" y="82" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1599562128993" />
     <state x="434" y="208" key="EditFileWatcherDialog" timestamp="1596890119198">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -96,10 +94,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599559735688" />
-    <state x="598" y="141" key="RollbackChangesDialog" timestamp="1599490027285">
+    <state x="598" y="141" key="RollbackChangesDialog" timestamp="1599562125886">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="598" y="141" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1599490027285" />
+    <state x="598" y="141" key="RollbackChangesDialog/0.0.1600.860@0.0.1600.860" timestamp="1599562125886" />
     <state x="301" y="72" key="SettingsEditor" timestamp="1597059917948">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
