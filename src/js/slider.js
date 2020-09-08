@@ -51,6 +51,6 @@ document.addEventListener('DOMContentLoaded', function () {
     e.preventDefault();
     expandedButton.classList.toggle('expand-button--expanded');
     expandedButton.textContent = (expandedButton.classList.contains('expand-button--expanded')) ? 'Скрыть' : 'Показать все';
-    slider.classList.toggle('slider--expand');
+    slider.classList.toggle('section__slider--expand');
   });
 });
