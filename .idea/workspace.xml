@@ -74,7 +74,9 @@
       <workItem from="1599324669611" duration="378000" />
       <workItem from="1599396010903" duration="20463000" />
       <workItem from="1599489959429" duration="6970000" />
-      <workItem from="1599559741220" duration="5689000" />
+      <workItem from="1599559741220" duration="5897000" />
+      <workItem from="1599635894972" duration="33000" />
+      <workItem from="1599638905822" duration="314000" />
     </task>
     <servers />
   </component>
@@ -90,10 +92,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="434" y="208" key="EditFileWatcherDialog/0.0.1600.860@0.0.1600.860" timestamp="1596890119198" />
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1599559735688">
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1599635925431">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599559735688" />
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1599635925431" />
     <state x="598" y="141" key="RollbackChangesDialog" timestamp="1599562125886">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -106,10 +108,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="647" y="346" key="VCS.ChangelistChooser/0.0.1600.860@0.0.1600.860" timestamp="1597673302123" />
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1599490014105">
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1599635894961">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1599490014105" />
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1599635894961" />
     <state x="466" y="162" width="667" height="536" key="find.popup" timestamp="1599448693097">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
